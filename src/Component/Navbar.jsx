@@ -10,7 +10,7 @@ const { setOpenCart, cartItems } = useContext(CartContext);
   const [search, setSearch] = useState("");
   const navigate = useNavigate();
   const location = useLocation();
-
+//Here we can check the github changes
   // Home page pe aate hi search clear
   useEffect(() => {
     if (location.pathname === "/") {
